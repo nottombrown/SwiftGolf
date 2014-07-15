@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82EAE8861975CF2A00A12628 /* golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EAE8851975CF2A00A12628 /* golf.swift */; };
 		82EF6FA51975C627004A3533 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF6FA41975C627004A3533 /* main.swift */; };
 		82EF6FB41975C6AD004A3533 /* SwiftGolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF6FB31975C6AD004A3533 /* SwiftGolfTests.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		82EAE8851975CF2A00A12628 /* golf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = golf.swift; sourceTree = "<group>"; };
 		82EF6FA11975C627004A3533 /* SwiftGolf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftGolf; sourceTree = BUILT_PRODUCTS_DIR; };
 		82EF6FA41975C627004A3533 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		82EF6FAF1975C6AD004A3533 /* SwiftGolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				82EF6FA41975C627004A3533 /* main.swift */,
+				82EAE8851975CF2A00A12628 /* golf.swift */,
 			);
 			path = SwiftGolf;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82EF6FA51975C627004A3533 /* main.swift in Sources */,
+				82EAE8861975CF2A00A12628 /* golf.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +357,7 @@
 				82EF6FAA1975C627004A3533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82EF6FB51975C6AD004A3533 /* Build configuration list for PBXNativeTarget "SwiftGolfTests" */ = {
 			isa = XCConfigurationList;
@@ -361,6 +366,7 @@
 				82EF6FB71975C6AD004A3533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
