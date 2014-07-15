@@ -18,4 +18,7 @@ class Golf {
         
     }
     
+    class func name() -> String {
+        return "OK"
+    }
 }
