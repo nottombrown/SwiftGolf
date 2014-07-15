@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82EF6FA51975C627004A3533 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF6FA41975C627004A3533 /* main.swift */; };
+		82EF6FB41975C6AD004A3533 /* SwiftGolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EF6FB31975C6AD004A3533 /* SwiftGolfTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82EF6FB81975C6EB004A3533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82EF6F991975C627004A3533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EF6FA01975C627004A3533;
+			remoteInfo = SwiftGolf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82EF6F9F1975C627004A3533 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82EF6FA11975C627004A3533 /* SwiftGolf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftGolf; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EF6FA41975C627004A3533 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		82EF6FAF1975C6AD004A3533 /* SwiftGolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82EF6FB21975C6AD004A3533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EF6FB31975C6AD004A3533 /* SwiftGolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGolfTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82EF6F9E1975C627004A3533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EF6FAC1975C6AD004A3533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82EF6F981975C627004A3533 = {
+			isa = PBXGroup;
+			children = (
+				82EF6FA31975C627004A3533 /* SwiftGolf */,
+				82EF6FB01975C6AD004A3533 /* SwiftGolfTests */,
+				82EF6FA21975C627004A3533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82EF6FA21975C627004A3533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82EF6FA11975C627004A3533 /* SwiftGolf */,
+				82EF6FAF1975C6AD004A3533 /* SwiftGolfTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82EF6FA31975C627004A3533 /* SwiftGolf */ = {
+			isa = PBXGroup;
+			children = (
+				82EF6FA41975C627004A3533 /* main.swift */,
+			);
+			path = SwiftGolf;
+			sourceTree = "<group>";
+		};
+		82EF6FB01975C6AD004A3533 /* SwiftGolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				82EF6FB31975C6AD004A3533 /* SwiftGolfTests.swift */,
+				82EF6FB11975C6AD004A3533 /* Supporting Files */,
+			);
+			path = SwiftGolfTests;
+			sourceTree = "<group>";
+		};
+		82EF6FB11975C6AD004A3533 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82EF6FB21975C6AD004A3533 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82EF6FA01975C627004A3533 /* SwiftGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EF6FA81975C627004A3533 /* Build configuration list for PBXNativeTarget "SwiftGolf" */;
+			buildPhases = (
+				82EF6F9D1975C627004A3533 /* Sources */,
+				82EF6F9E1975C627004A3533 /* Frameworks */,
+				82EF6F9F1975C627004A3533 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGolf;
+			productName = SwiftGolf;
+			productReference = 82EF6FA11975C627004A3533 /* SwiftGolf */;
+			productType = "com.apple.product-type.tool";
+		};
+		82EF6FAE1975C6AD004A3533 /* SwiftGolfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82EF6FB51975C6AD004A3533 /* Build configuration list for PBXNativeTarget "SwiftGolfTests" */;
+			buildPhases = (
+				82EF6FAB1975C6AD004A3533 /* Sources */,
+				82EF6FAC1975C6AD004A3533 /* Frameworks */,
+				82EF6FAD1975C6AD004A3533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82EF6FB91975C6EB004A3533 /* PBXTargetDependency */,
+			);
+			name = SwiftGolfTests;
+			productName = SwiftGolfTests;
+			productReference = 82EF6FAF1975C6AD004A3533 /* SwiftGolfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82EF6F991975C627004A3533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = not;
+				TargetAttributes = {
+					82EF6FA01975C627004A3533 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					82EF6FAE1975C6AD004A3533 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 82EF6F9C1975C627004A3533 /* Build configuration list for PBXProject "SwiftGolf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82EF6F981975C627004A3533;
+			productRefGroup = 82EF6FA21975C627004A3533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82EF6FA01975C627004A3533 /* SwiftGolf */,
+				82EF6FAE1975C6AD004A3533 /* SwiftGolfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82EF6FAD1975C6AD004A3533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82EF6F9D1975C627004A3533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EF6FA51975C627004A3533 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EF6FAB1975C6AD004A3533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82EF6FB41975C6AD004A3533 /* SwiftGolfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82EF6FB91975C6EB004A3533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82EF6FA01975C627004A3533 /* SwiftGolf */;
+			targetProxy = 82EF6FB81975C6EB004A3533 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82EF6FA61975C627004A3533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82EF6FA71975C627004A3533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82EF6FA91975C627004A3533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82EF6FAA1975C627004A3533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82EF6FB61975C6AD004A3533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftGolfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82EF6FB71975C6AD004A3533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftGolfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82EF6F9C1975C627004A3533 /* Build configuration list for PBXProject "SwiftGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EF6FA61975C627004A3533 /* Debug */,
+				82EF6FA71975C627004A3533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82EF6FA81975C627004A3533 /* Build configuration list for PBXNativeTarget "SwiftGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EF6FA91975C627004A3533 /* Debug */,
+				82EF6FAA1975C627004A3533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82EF6FB51975C6AD004A3533 /* Build configuration list for PBXNativeTarget "SwiftGolfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82EF6FB61975C6AD004A3533 /* Debug */,
+				82EF6FB71975C6AD004A3533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82EF6F991975C627004A3533 /* Project object */;
+}
