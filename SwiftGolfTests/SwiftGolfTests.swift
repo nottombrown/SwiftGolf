@@ -13,7 +13,10 @@ import SwiftGolf
 class SwiftGolfTests: XCTestCase {
     
     func testHole1() {
-        // This is an example of a functional test case.
-        XCTAssertEqual(Golf.hole1(), 45)
+        // It should calculate the factorial of 4, i.e. 4*3*2*1
+        XCTAssertEqual(Golf.hole1(4), 24)
+        XCTAssertEqual(Golf.hole1(5), 120)
+        XCTAssertEqual(Golf.hole1(8), 40320)
+        XCTAssertEqual(Golf.hole1(10), 3628800)
     }
 }

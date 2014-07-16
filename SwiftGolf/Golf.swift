@@ -10,7 +10,7 @@ import Foundation
 
 class Golf {
     
-    class func hole1() -> Int {
+    class func hole1(i: Int) -> Int {
         return 45
     }
     
