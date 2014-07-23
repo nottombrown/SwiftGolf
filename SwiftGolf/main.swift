@@ -12,7 +12,26 @@ import Foundation
 let projectRepo = "/Users/tombrown/Workspace/SwiftGolf"
 let path = "\(projectRepo)/SwiftGolf/Golf.swift"
 
-let fileContents = String.stringWithContentsOfFile(path)
+let whitespace = NSCharacterSet.whitespaceAndNewlineCharacterSet()
 
-println(fileContents)
+// Count all the non-whitespace characters in a file
+func countNonWhitespaceChars(fileLocation:String) -> Int? {
+    if var fileContents = String.stringWithContentsOfFile(path, encoding: NSUTF8StringEncoding, error: nil){
+        var count = 0
+        for char in fileContents {
+            let charString = String(char)
+            if !charString.rangeOfCharacterFromSet(whitespace) {
+                count += 1
+            }
+        }
+        return count
+    } else {
+        return nil
+    }
+}
 
+if let count = countNonWhitespaceChars(path) {
+    println("Your code has \(count) characters.")
+} else {
+    println("No file found at \(path). Did you set your `projectRepo` variable correctly?")
+}
