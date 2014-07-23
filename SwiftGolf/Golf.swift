@@ -11,7 +11,7 @@ import Foundation
 class Golf {
     
     class func hole1(i: Int) -> Int {
-        return 45
+        return 24
     }
     
     class func hole2() {

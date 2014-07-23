@@ -8,7 +8,11 @@
 
 import Foundation
 
+// Is there a way to get the source directory programmatically?
+let projectRepo = "/Users/tombrown/Workspace/SwiftGolf"
+let path = "\(projectRepo)/SwiftGolf/Golf.swift"
 
+let fileContents = String.stringWithContentsOfFile(path)
 
-println("Hello, World!")
+println(fileContents)
 
