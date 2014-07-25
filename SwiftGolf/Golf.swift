@@ -11,7 +11,7 @@ import Foundation
 class Golf {
     
     class func hole1(i: Int) -> Int {
-        return 24
+        return Array(1...i).reduce(1, {$0*$1})
     }
     
     class func hole2() {
