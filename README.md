@@ -9,7 +9,7 @@
 
  * Fork https://github.com/nottombrown/SwiftGolf to your own github account.
  * Clone it to your local machine
- * Open it in Xcode and change the `projectRepo` variable in `SwiftGolf/main.Swift` to the current directory
+ * Open it in Xcode and change the `projectRepo` variable in `SwiftGolf/main.swift` to the current directory
  * Make sure that the project builds (`⌘+R`)
 
 ## How to play
