@@ -8,6 +8,14 @@
 
 import Foundation
 
+func spl(str:String) -> [String]{
+    var o:[String] = []
+    for i in str {
+        o += String(i)
+    }
+    return o
+}
+
 class Golf {
 
     class func hole1(i: Int) -> Int {
@@ -15,7 +23,7 @@ class Golf {
     }
     
     class func hole2() -> [String] {
-        return ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+        return spl("abcdefghijklmnopqrstuvwxyz")
     }
     
     class func hole3() {
