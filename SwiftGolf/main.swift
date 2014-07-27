@@ -8,8 +8,8 @@
 
 import Foundation
 
-// Is there a way to get the source directory programmatically?
-let projectRepo = "/Users/tombrown/Workspace/SwiftGolf"
+let projectRepo = "/Users/tombrown/Workspace/SwiftGolf" // CHANGE ME
+
 let path = "\(projectRepo)/SwiftGolf/Golf.swift"
 
 let whitespace = NSCharacterSet.whitespaceAndNewlineCharacterSet()
