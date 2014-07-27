@@ -11,14 +11,31 @@ import Foundation
 class Golf {
     
     class func hole1(i: Int) -> Int {
-        return 24
+        // fill me in
     }
     
     class func hole2() {
-        
     }
     
-    class func name() -> String {
-        return "OK"
+    class func hole3() {
     }
+    
+    class func hole4() {
+    }
+    
+    class func hole5() {
+    }
+    
+    class func hole6() {
+    }
+    
+    class func hole7() {
+    }
+    
+    class func hole8() {
+    }
+    
+    class func hole9() {
+    }
+   
 }

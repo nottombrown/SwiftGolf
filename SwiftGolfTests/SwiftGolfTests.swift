@@ -15,8 +15,40 @@ class SwiftGolfTests: XCTestCase {
     func testHole1() {
         // It should calculate the factorial of 4, i.e. 4*3*2*1
         XCTAssertEqual(Golf.hole1(4), 24)
-//        XCTAssertEqual(Golf.hole1(5), 120)
-//        XCTAssertEqual(Golf.hole1(8), 40320)
-//        XCTAssertEqual(Golf.hole1(10), 3628800)
+        XCTAssertEqual(Golf.hole1(5), 120)
+        XCTAssertEqual(Golf.hole1(8), 40320)
+        XCTAssertEqual(Golf.hole1(10), 3628800)
+    }
+    
+    func testHole2() {
+        // TBA
+    }
+    
+    func testHole3() {
+        // TBA
+    }
+    
+    func testHole4() {
+        // TBA
+    }
+    
+    func testHole5() {
+        // TBA
+    }
+    
+    func testHole6() {
+        // TBA
+    }
+    
+    func testHole7() {
+        // TBA
+    }
+    
+    func testHole8() {
+        // TBA
+    }
+    
+    func testHole9() {
+        // TBA
     }
 }
