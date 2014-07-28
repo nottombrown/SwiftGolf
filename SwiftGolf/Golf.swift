@@ -35,7 +35,16 @@ class Golf {
         return Array(1...i).reduce(1, {$0*$1})
     }
     
-    class func hole4() {
+    class func hole4(i:Int) -> Array<Any> {
+        var o:[Any] = []
+        for i in 1...i {
+            if i % 3 == 0 {
+                o += "fizz"
+            } else {
+                o += i
+            }
+        }
+        return o
     }
     
     class func hole5() {
