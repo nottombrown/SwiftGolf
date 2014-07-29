@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		82145C06198865B90078C4F3 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8236A71C19876F6F00834F04 /* Nimble.framework */; };
-		82324404198861B600808D96 /* Cent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823243F71988619C00808D96 /* Cent.framework */; };
-		82324405198861BC00808D96 /* Cent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823243F71988619C00808D96 /* Cent.framework */; };
 		8236A7401987708A00834F04 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8236A7391987708300834F04 /* Quick.framework */; };
 		82718BD51975EE110026DB40 /* Golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82718BD41975EE110026DB40 /* Golf.swift */; };
 		82718BD61975EE110026DB40 /* Golf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82718BD41975EE110026DB40 /* Golf.swift */; };
@@ -20,20 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		823243F61988619C00808D96 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 823243F11988619C00808D96 /* Cent.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 924F92DC195F8338003DBB60;
-			remoteInfo = Cent;
-		};
-		823243F81988619C00808D96 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 823243F11988619C00808D96 /* Cent.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 924F92E7195F8338003DBB60;
-			remoteInfo = CentTests;
-		};
 		8236A71719876F6F00834F04 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8236A71019876F6E00834F04 /* Nimble.xcodeproj */;
@@ -126,7 +110,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		823243F11988619C00808D96 /* Cent.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cent.xcodeproj; path = Externals/Cent/Cent.xcodeproj; sourceTree = SOURCE_ROOT; };
 		8236A71019876F6E00834F04 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Externals/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
 		8236A7301987708300834F04 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Externals/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
 		82718BD41975EE110026DB40 /* Golf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Golf.swift; sourceTree = "<group>"; };
@@ -143,7 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82324404198861B600808D96 /* Cent.framework in Frameworks */,
 				82A6BAF11988613D001A5AC0 /* Dollar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82145C06198865B90078C4F3 /* Nimble.framework in Frameworks */,
-				82324405198861BC00808D96 /* Cent.framework in Frameworks */,
 				82F705D61988612200BA7AB6 /* Dollar.framework in Frameworks */,
 				8236A7401987708A00834F04 /* Quick.framework in Frameworks */,
 			);
@@ -162,15 +143,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		823243F21988619C00808D96 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				823243F71988619C00808D96 /* Cent.framework */,
-				823243F91988619C00808D96 /* CentTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		8236A71119876F6E00834F04 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,7 +186,6 @@
 		82EF6FA31975C627004A3533 /* SwiftGolf */ = {
 			isa = PBXGroup;
 			children = (
-				823243F11988619C00808D96 /* Cent.xcodeproj */,
 				82F705CD1988610B00BA7AB6 /* Dollar.xcodeproj */,
 				82EF6FA41975C627004A3533 /* main.swift */,
 				82718BD41975EE110026DB40 /* Golf.swift */,
@@ -317,10 +288,6 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 823243F21988619C00808D96 /* Products */;
-					ProjectRef = 823243F11988619C00808D96 /* Cent.xcodeproj */;
-				},
-				{
 					ProductGroup = 82F705CE1988610B00BA7AB6 /* Products */;
 					ProjectRef = 82F705CD1988610B00BA7AB6 /* Dollar.xcodeproj */;
 				},
@@ -342,20 +309,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		823243F71988619C00808D96 /* Cent.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Cent.framework;
-			remoteRef = 823243F61988619C00808D96 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		823243F91988619C00808D96 /* CentTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CentTests.xctest;
-			remoteRef = 823243F81988619C00808D96 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		8236A71819876F6F00834F04 /* Nimble.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
