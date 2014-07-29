@@ -59,7 +59,8 @@ class Golf {
         return o
     }
     
-    class func hole6() {
+    class func hole6(s:String) -> String {
+        return s
     }
     
     class func hole7() {
