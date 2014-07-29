@@ -63,22 +63,40 @@ class SwiftGolfSpec: QuickSpec {
             }
         }
         
-        describe("hole6") {
-            it("truncates words of >10 characters to exactly 10 characters") {
-                expect(countElements(Golf.hole6("triangulation"))).to(equal(10))
+        //        describe("hole6") {
+        //            it("truncates words of >10 characters to exactly 10 characters") {
+        //                expect(countElements(Golf.hole6("triangulation"))).to(equal(10))
+        //            }
+        //
+        //            it("truncates using '...' 3 charaters before the end") {
+        //                expect(Golf.hole6("triangulation")).to(equal("tria...ion"))
+        //
+        //            }
+        //            it("does not alter words of 10 characters or less") {
+        //                expect(Golf.hole6("characters")).to(equal("characters"))
+        //            }
+        //            it("does the above on the individual words in a sentence") {
+        //                expect(Golf.hole6("The congregation disliked the minister's condescending tone.")).to(equal("The cong...ion disliked the minister's cond...ing tone."))
+        //
+        //            }
+        //        }
+        
+        describe("hole7") {
+            it("counts the number of times a substring occurs in a word") {
+                expect(Golf.hole7("banana", p:"a")).to(equal(3))
+            }
+            it("counts the number of times a substring occurs in a sentence") {
+                expect(Golf.hole7("The rain in spain falls mainly on the plain", p: "ain")).to(equal(4))
+            }
+        }
+        
+        describe("hole8") {
+            it("should return all sub-lists of the input, sorted by length then numerically"){
+                expect(Golf.hole8([1,2,3,4])).to(equal([[1], [2], [3], [4], [1, 2], [2, 3], [3, 4], [1, 2, 3], [2, 3, 4], [1, 2, 3, 4]]))
+                
+                expect(Golf.hole8([4,10,15,23])).to(equal([[4], [10], [15], [23], [4, 10], [10, 15], [15, 23], [4, 10, 15], [10, 15, 23], [4, 10, 15, 23]]))
             }
             
-            it("truncates using '...' 3 charaters before the end") {
-                expect(Golf.hole6("triangulation")).to(equal("tria...ion"))
-                
-            }
-            it("does not alter words of 10 characters or less") {
-                expect(Golf.hole6("characters")).to(equal("characters"))
-            }
-            it("does the above on the individual words in a sentence") {
-                expect(Golf.hole6("The congregation disliked the minister's condescending tone.")).to(equal("The cong...ion disliked the minister's cond...ing tone."))
-                
-            }
         }
     }
 }

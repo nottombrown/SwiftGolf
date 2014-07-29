@@ -63,10 +63,12 @@ class Golf {
         return s
     }
     
-    class func hole7() {
+    class func hole7(s:String, p:String) -> Int {
+        return countElements(s.componentsSeparatedByString(p))-1
     }
     
-    class func hole8() {
+    class func hole8(a:[Int]) -> [[Int]] {
+        return [a]
     }
     
     class func hole9() {
