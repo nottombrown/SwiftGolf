@@ -59,7 +59,10 @@ class SwiftGolfTests: XCTestCase {
     }
     
     func testHole5() {
-        // TBA
+        // it should give the first N numbers of the fibonacci sequence
+        XCTAssertEqual(Golf.hole5(5), [1,1,2,3,5])
+        XCTAssertEqual(Golf.hole5(9), [1,1,2,3,5,8,13,21,34])
+        XCTAssertEqual(Golf.hole5(15), [1,1,2,3,5,8,13,21,34,55,89,144,233,377,610])
     }
     
     func testHole6() {
