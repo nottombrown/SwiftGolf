@@ -45,9 +45,7 @@ class SwiftGolfTests: XCTestCase {
     }
     
     func testHole4() {
-        // It should play fizzbuzz to 3, where multiples of 3 are 'fizz'
-        var z = Golf.hole4(3)
-        println(z)
+        // It should play fizzbuzz to 3, where multiples of 3 are 'fizz'        
         ArrayAssertEqual(Golf.hole4(3), ["1","2","fizz"])
         
         // It should play fizzbuzz to 5, where multiples of 5 are 'buzz'
@@ -55,6 +53,7 @@ class SwiftGolfTests: XCTestCase {
             
         // It should play fizzbuzz to 10
         ArrayAssertEqual(Golf.hole4(10), ["1","2","fizz","4","buzz","fizz","7","8","fizz","buzz"])
+        
         // It should play fizzbuzz to 20
         ArrayAssertEqual(Golf.hole4(20), ["1","2","fizz","4","buzz","fizz","7","8","fizz","buzz","11","fizz","13","14","fizzbuzz","16","17","fizz","19","buzz"])
     }
