@@ -17,11 +17,10 @@ class SwiftGolfSpec: QuickSpec {
     override func spec() {
         
         describe("hole1") {
-            it("calculates the factorial of n, i.e. 4 -> 4*3*2*1") {
-                expect(Golf.hole1(4)) == 24
-                expect(Golf.hole1(5)) == 120
-                expect(Golf.hole1(8)) == 40320
-                expect(Golf.hole1(10)) == 3628800
+            it("multiplies the numbers in an array") {
+                expect(Golf.hole1([1,2,3,4])) == 24
+                expect(Golf.hole1([5,10,20])) == 1000
+                expect(Golf.hole1([2,2,2,2,2,2,2])) == 128
             }
         }
         
@@ -34,10 +33,10 @@ class SwiftGolfSpec: QuickSpec {
         describe("hole3") {
             it("calculates the factorial of 4, i.e. 4*3*2*1") {
                 expect(1) == 1
-                expect(Golf.hole1(4)) == 24
-                expect(Golf.hole1(5)) == 120
-                expect(Golf.hole1(8)) == 40320
-                expect(Golf.hole1(10)) == 3628800
+                expect(Golf.hole3(4)) == 24
+                expect(Golf.hole3(5)) == 120
+                expect(Golf.hole3(8)) == 40320
+                expect(Golf.hole3(10)) == 3628800
             }
         }
         

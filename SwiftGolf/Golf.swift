@@ -19,11 +19,11 @@ func spl(str:S) -> [S]{
 
 class Golf {
 
-    class func hole1(i: Int) -> Int {
-        return Array(1...i).reduce(1, {$0*$1})
+    class func hole1(a: [Int]) -> Int {
+        return a.reduce(1, {$0*$1})
     }
     
-    class func hole2() -> [String] {
+    class func hole2() -> [String] {            
         var o:[S] = []
         for i in "abcdefghijklmnopqrstuvwxyz" {
             o += S(i)
