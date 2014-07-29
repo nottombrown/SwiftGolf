@@ -51,7 +51,12 @@ class Golf {
         return o
     }
     
-    class func hole5() {
+    class func hole5(i:Int) -> [Int] {
+        var o = [1,1]
+        for j in 0..<(i-2) {
+            o += o[j]+o[j+1]
+        }
+        return o
     }
     
     class func hole6() {

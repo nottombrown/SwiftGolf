@@ -17,8 +17,7 @@ class SwiftGolfSpec: QuickSpec {
     override func spec() {
         
         describe("hole1") {
-            it("calculates the factorial of 4, i.e. 4*3*2*1") {
-                expect(1) == 1
+            it("calculates the factorial of n, i.e. 4 -> 4*3*2*1") {
                 expect(Golf.hole1(4)) == 24
                 expect(Golf.hole1(5)) == 120
                 expect(Golf.hole1(8)) == 40320
@@ -58,9 +57,11 @@ class SwiftGolfSpec: QuickSpec {
         }
         
         describe("hole5") {
-            //        expect(Golf.hole5(5)) == [1,1,2,3,5]
-            //        expect(Golf.hole5(9)) == [1,1,2,3,5,8,13,21,34]
-            //        expect(Golf.hole5(15)) == [1,1,2,3,5,8,13,21,34,55,89,144,233,377,610]
+            it("calculates the first n fibonacci numbers ") {
+                expect(Golf.hole5(5)).to(equal([1,1,2,3,5]))
+                expect(Golf.hole5(9)).to(equal([1,1,2,3,5,8,13,21,34]))
+                expect(Golf.hole5(15)).to(equal([1,1,2,3,5,8,13,21,34,55,89,144,233,377,610]))
+            }
         }
     }
 }
