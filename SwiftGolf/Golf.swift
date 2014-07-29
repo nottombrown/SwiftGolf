@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import Dollar
+//import Cent
 typealias S = String
 
 func spl(str:S) -> [S]{
