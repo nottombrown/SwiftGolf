@@ -14,8 +14,7 @@ import Nimble
 
 
 class SwiftGolfSpec: QuickSpec {
-    override func spec() {
-        
+    override func spec() {        
         describe("hole1") {
             it("multiplies the numbers in an array") {
                 expect(Golf.hole1([1,2,3,4])) == 24
@@ -63,23 +62,23 @@ class SwiftGolfSpec: QuickSpec {
             }
         }
         
-        //        describe("hole6") {
-        //            it("truncates words of >10 characters to exactly 10 characters") {
-        //                expect(countElements(Golf.hole6("triangulation"))).to(equal(10))
-        //            }
-        //
-        //            it("truncates using '...' 3 charaters before the end") {
-        //                expect(Golf.hole6("triangulation")).to(equal("tria...ion"))
-        //
-        //            }
-        //            it("does not alter words of 10 characters or less") {
-        //                expect(Golf.hole6("characters")).to(equal("characters"))
-        //            }
-        //            it("does the above on the individual words in a sentence") {
-        //                expect(Golf.hole6("The congregation disliked the minister's condescending tone.")).to(equal("The cong...ion disliked the minister's cond...ing tone."))
-        //
-        //            }
-        //        }
+        describe("hole6") {
+            it("truncates words of >10 characters to exactly 10 characters") {
+                expect(countElements(Golf.hole6("triangulation"))).to(equal(10))
+            }
+
+            it("truncates using '...' 3 charaters before the end") {
+                expect(Golf.hole6("triangulation")).to(equal("tria...ion"))
+
+            }
+            it("does not alter words of 10 characters or less") {
+                expect(Golf.hole6("characters")).to(equal("characters"))
+            }
+            it("does the above on the individual words in a sentence") {
+                expect(Golf.hole6("The congregation disliked the minister's condescending tone.")).to(equal("The cong...ion disliked the minister's cond...ing tone."))
+
+            }
+        }
         
         describe("hole7") {
             it("counts the number of times a substring occurs in a word") {
@@ -90,13 +89,31 @@ class SwiftGolfSpec: QuickSpec {
             }
         }
         
-        describe("hole8") {
-            it("should return all sub-lists of the input, sorted by length then numerically"){
-//                expect(Golf.hole8([1,2,3,4])).to(equal([[1], [2], [3], [4], [1, 2], [2, 3], [3, 4], [1, 2, 3], [2, 3, 4], [1, 2, 3, 4]]))
+        describe(".hole8") {
+            it("puts a hat on every man") {
+                expect(Golf.hole8(["man(bob)", "man(geoff)", "man(harry)"])).to(equal(["hat(man(bob))", "hat(man(geoff))", "hat(man(harry))"]))
                 
-//                expect(Golf.hole8([4,10,15,23])).to(equal([[4], [10], [15], [23], [4, 10], [10, 15], [15, 23], [4, 10, 15], [10, 15, 23], [4, 10, 15, 23]]))
+            }
+
+            it("feeds each dog a bone") {
+                expect(Golf.hole8(["dog(luna)", "dog(rex)", "dog(spot)"])).to(equal(["dog(luna(bone))", "dog(rex(bone))", "dog(spot(bone))"]))
+            }
+        
+            it("should collapse the probability waveform of each cat") {
+                expect(Golf.hole8(["cat(tiddles)", "cat(miffy)"])).to(equal(["dead(tiddles)", "dead(miffy)"]))
             }
             
+            it("should do all the above at once") {
+                expect(Golf.hole8(["man(steve)", "dog(snoopy)", "cat(garfield)"])).to(equal(["hat(man(steve))", "dog(snoopy(bone))", "dead(garfield)"]))
+            }
+        }
+        
+        describe("hole9") {
+            it("should return all sub-lists of the input, sorted by length then numerically"){
+                expect(Golf.hole9([1,2,3,4])).to(equal([[1], [2], [3], [4], [1, 2], [2, 3], [3, 4], [1, 2, 3], [2, 3, 4], [1, 2, 3, 4]]))
+                
+                expect(Golf.hole9([4,10,15,23])).to(equal([[4], [10], [15], [23], [4, 10], [10, 15], [15, 23], [4, 10, 15], [10, 15, 23], [4, 10, 15, 23]]))
+            }
         }
     }
 }

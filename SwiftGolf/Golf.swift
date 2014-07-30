@@ -68,11 +68,12 @@ class Golf {
         return countElements(s.componentsSeparatedByString(p))-1
     }
     
-    class func hole8(a:[Int]) -> [[Int]] {
-        return [a]
+    class func hole8(a:[String]) -> [String] {
+        return a
     }
     
-    class func hole9() {
+    class func hole9(a:[Int]) -> [[Int]] {
+        return $.partitionAll(a, n: countElements(a), step: 1)
     }
    
 }
