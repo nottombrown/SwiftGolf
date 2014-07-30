@@ -21,59 +21,39 @@ func spl(str:S) -> [S]{
 class Golf {
 
     class func hole1(a: [Int]) -> Int {
-        return a.reduce(1, {$0*$1})
+        return 0
     }
     
     class func hole2() -> [String] {            
-        var o:[S] = []
-        for i in "abcdefghijklmnopqrstuvwxyz" {
-            o += S(i)
-        }
-        return o
+        return ["placeholder"]
     }
     
     class func hole3(i: Int) -> Int {
-        return Array(1...i).reduce(1, {$0*$1})
+        return 0
     }
     
     class func hole4(i:Int) -> [String] {
-        var o:[String] = []
-        for i in 1...i {
-            if i % 15 == 0 {
-                o += "fizzbuzz"
-            } else if i % 3 == 0 {
-                o += "fizz"
-            } else if i % 5 == 0 {
-                o += "buzz"
-            } else {
-                o += "\(i)"
-            }
-        }
-        return o
+        return ["placeholder"]
     }
     
     class func hole5(i:Int) -> [Int] {
-        var o = [1,1]
-        for j in 0..<(i-2) {
-            o += o[j]+o[j+1]
-        }
-        return o
+        return [0]
     }
     
     class func hole6(s:String) -> String {
-        return s
+        return "placeholder"
     }
     
     class func hole7(s:String, p:String) -> Int {
-        return countElements(s.componentsSeparatedByString(p))-1
+        return 0
     }
     
     class func hole8(a:[String]) -> [String] {
-        return a
+        return ["placeholder"]
     }
     
     class func hole9(a:[Int]) -> [[Int]] {
-        return $.partitionAll(a, n: countElements(a), step: 1)
+        return [[0]]
     }
    
 }
