@@ -39,8 +39,8 @@ class Golf {
         return 42
     }
     
-    class func hole8(a:[String]) -> [String] {
-        return ["placeholder"]
+    class func hole8() -> String {
+        return "WOOOOOOOOOOOOOOOOOOOOOO!"
     }
     
     class func hole9(a:[Int]) -> [[Int]] {

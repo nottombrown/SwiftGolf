@@ -88,25 +88,12 @@ class SwiftGolfSpec: QuickSpec {
 //            }
 //        }
 //        
-//        describe(".hole8") {
-//            it("puts a hat on every man") {
-//                expect(Golf.hole8(["man(bob)", "man(geoff)", "man(harry)"])).to(equal(["hat(man(bob))", "hat(man(geoff))", "hat(man(harry))"]))
-//                
-//            }
+        describe(".hole8") {
+            it("returns 'WOOOOOOOOOOOOOOOOOOOOOO!'") {
+                expect(Golf.hole8()).to(equal("WOOOOOOOOOOOOOOOOOOOOOO!"))
+            }
+        }
 //
-//            it("feeds each dog a bone") {
-//                expect(Golf.hole8(["dog(luna)", "dog(rex)", "dog(spot)"])).to(equal(["dog(luna(bone))", "dog(rex(bone))", "dog(spot(bone))"]))
-//            }
-//        
-//            it("should collapse the probability waveform of each cat") {
-//                expect(Golf.hole8(["cat(tiddles)", "cat(miffy)"])).to(equal(["dead(tiddles)", "dead(miffy)"]))
-//            }
-//            
-//            it("should do all the above at once") {
-//                expect(Golf.hole8(["man(steve)", "dog(snoopy)", "cat(garfield)"])).to(equal(["hat(man(steve))", "dog(snoopy(bone))", "dead(garfield)"]))
-//            }
-//        }
-//        
 //        describe("hole9") {
 //            it("should return all sub-lists of the input, sorted by length then numerically"){
 //                expect(Golf.hole9([1,2,3,4])).to(equal([[1], [2], [3], [4], [1, 2], [2, 3], [3, 4], [1, 2, 3], [2, 3, 4], [1, 2, 3, 4]]))
